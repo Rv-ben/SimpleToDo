@@ -35,7 +35,7 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.ViewHolder> 
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View todoView = LayoutInflater.from(parent.getContext()).inflate(android.R.layout.simple_list_item_1, parent, false);
+        View todoView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_view, parent, false);
         return new ViewHolder(todoView);
     }
 
@@ -56,7 +56,7 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.ViewHolder> 
 
         public ViewHolder(@NonNull View itemView ) {
             super(itemView);
-            tvItem = itemView.findViewById(android.R.id.text1);
+            tvItem = itemView.findViewById(R.id.text_view_text);
         }
 
         public void bind(String item) {

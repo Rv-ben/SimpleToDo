@@ -22,9 +22,6 @@ public class EditActivity extends AppCompatActivity {
         editText = findViewById(R.id.edit_text);
         editButton = findViewById(R.id.edit_button);
 
-        getSupportActionBar().setTitle("Edit ToDo Item");
-
-
         editText.setText(getIntent().getStringExtra(MainActivity.KEY_ITEM_TEXT));
 
         editButton.setOnClickListener(view -> {
