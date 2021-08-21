@@ -37,7 +37,7 @@ https://github.com/Rv-ben/SimpleToDo/blob/8c68572beec6bc5fff358636d88100d3662835
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2021 Ruben Bramasco
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
